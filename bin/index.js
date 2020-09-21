@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-const { generateFilesFromType } = require('../lib/files')
+const { generateFilesFromType } = require('../libv/index')
 
 generateFilesFromType('ss-dev', 'react', false)

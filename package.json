@@ -2,13 +2,13 @@
   "name": "@stranerd/ss-cli",
   "version": "1.0.0",
   "description": "This is used to generate projects based on our stranerd schools software",
-  "main": "./lib/index.js",
+  "main": "libv/index.js",
   "bin": {
     "ss-generate": "./bin/index.js"
   },
   "scripts": {
-    "start": "node ./lib/index.js",
-    "lint":  "eslint src/ --fix"
+    "start": "node libv/index.js",
+    "lint": "eslint src/ --fix"
   },
   "keywords": [],
   "author": "Kevin Izuchukwu",
@@ -17,6 +17,7 @@
     "chalk": "^4.1.0"
   },
   "devDependencies": {
+    "@types/node": "^14.10.1",
     "@typescript-eslint/eslint-plugin": "^2.18.0",
     "@typescript-eslint/parser": "^2.18.0",
     "eslint": "^6.7.2",
