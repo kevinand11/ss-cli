@@ -1,11 +1,17 @@
-exports = {
+module.exports = {
 	root: true,
 	env: {
 		node: true,
 	},
 	extends: ['eslint:recommended'],
+	plugins: [
+		'promise',
+		'@typescript-eslint'
+	],
+	parser: '@typescript-eslint/parser',
 	parserOptions: {
-		parser: '@typescript-eslint/parser',
+		sourceType: 'module',
+		ecmaVersion: 2020
 	},
 	rules: {
 		'no-var': 'error',

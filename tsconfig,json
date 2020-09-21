@@ -1,28 +1,21 @@
 {
-  "compilerOptions": {
-    "target": "es5",
-    "module": "esnext",
-    "strict": true,
-    "jsx": "preserve",
-    "importHelpers": true,
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "sourceMap": false,
-    "baseUrl": ".",
-    "types": [
-      "webpack-env",
-      "jest"
-    ],
-    "lib": [
-      "esnext",
-      "scripthost"
-    ]
-  },
-  "include": [
-    "src/**/*.ts",
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+	"compilerOptions": {
+	    "module": "commonjs",
+	    "noImplicitReturns": true,
+	    "noUnusedLocals": true,
+	    "outDir": "lib",
+	    "sourceMap": false,
+	    "strict": true,
+	    "baseUrl": ".",
+	    "target": "es2017",
+	    "removeComments": true,
+	    "noImplicitAny": true
+	  },
+	"compileOnSave": true,
+	"include": [
+		"./src"
+	],
+	"exclude": [
+		"node_modules"
+	]
 }
