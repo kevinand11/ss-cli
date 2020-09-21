@@ -1,7 +1,7 @@
 import { readdirSync, statSync } from 'fs'
 import { join } from 'path'
 
-export const getAllFilesInADirectory = (directory: string, store: { files: string[], basePath: string} = { files: [], basePath: null }) => {
+export const getAllFilesInADirectory = (directory: string, store: { files: string[], basePath: string} = { files: [], basePath: '' }) => {
 	if (!store.basePath) store.basePath = join(directory)
 
 	const contents = readdirSync(directory)
