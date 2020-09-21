@@ -1,0 +1,21 @@
+{
+  "name": "@stranerd/ss-cli",
+  "version": "1.0.0",
+  "description": "This is used to generate projects based on our stranerd schools software",
+  "main": "./lib/index.js",
+  "bin": {
+    "ss-generate": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node ./lib/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  }
+}
