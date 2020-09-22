@@ -1,8 +1,8 @@
 {
   "name": "@stranerd/ss-cli",
   "version": "1.0.0",
-  "description": "This is used to generate projects based on our stranerd schools software",
-  "main": "libv/index.js",
+  "description": "This is used to generate projects based off our ss application",
+  "main": "lib/index.js",
   "bin": {
     "ss-generate": "bin/ss-generate.js"
   },
